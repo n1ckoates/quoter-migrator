@@ -1,0 +1,25 @@
+{
+	"name": "quoter-migrator",
+	"version": "1.0.0",
+	"description": "Tool to migrate a Quoter database from quick.db (SQLite3) to mongoose (mongoDB)",
+	"main": "migrate.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/nchristopher/quoter-migrater.git"
+	},
+	"author": "Nicholas Christopher <nchristopher@tuta.io> (https://nchristopher.me)",
+	"license": "GPL-3.0-only",
+	"bugs": {
+		"url": "https://github.com/nchristopher/quoter-migrater/issues"
+	},
+	"homepage": "https://github.com/nchristopher/quoter-migrater#readme",
+	"dependencies": {
+		"mongoose": "^5.12.12",
+		"quick.db": "^7.1.3"
+	},
+	"devDependencies": {
+		"eslint": "^7.27.0",
+		"eslint-config-prettier": "^8.3.0",
+		"prettier": "^2.3.0"
+	}
+}
